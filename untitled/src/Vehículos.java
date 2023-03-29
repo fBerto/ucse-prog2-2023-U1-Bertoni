@@ -1,0 +1,2 @@
+class Vehículos implements IProduct{
+}
