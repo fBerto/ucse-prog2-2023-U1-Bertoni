@@ -1,4 +1,6 @@
-public class Ropa implements Product{
+package FactoryMethod;
+
+public class Vehiculo implements Product{
     private String nombre;
     private double precio;
     @Override

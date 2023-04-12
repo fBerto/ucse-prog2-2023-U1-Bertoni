@@ -1,3 +1,5 @@
+package FactoryMethod;
+
 public interface Product {
     public void setNombre(String name);
     public String getNombre();

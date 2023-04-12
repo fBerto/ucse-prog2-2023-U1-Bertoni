@@ -1,3 +1,5 @@
+package Bridge;
+
 public class PaymentManager {
     PaymentGateway paymentGateway;
     PaymentProcessor paymentProcessor; //es como cuando definis color en la clase forma

@@ -1,3 +1,5 @@
+package FactoryMethod;
+
 public class FabricaElectronica extends ProductFactory {
 
     @Override

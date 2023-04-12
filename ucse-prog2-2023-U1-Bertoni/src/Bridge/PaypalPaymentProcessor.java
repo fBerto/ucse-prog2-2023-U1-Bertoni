@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.List;
+package Bridge;
 
 public class PaypalPaymentProcessor extends PaymentProcessor{
 

@@ -1,4 +1,6 @@
-public class FabricaRopa extends ProductFactory{
+package FactoryMethod;
+
+public class FabricaRopa extends ProductFactory {
 
     @Override
     public Product createProduct() {
