@@ -5,5 +5,11 @@ public class Main {
         producto.setPrecio(20.30);
         System.out.println("Producto: " + producto.getNombre());
         System.out.println("Precio: $" + producto.getPrecio());
+
+        PaymentManager manager = new PaymentManager();
+        manager.processPayment(200.5,"paypal");
+        manager.processPayment(200.5,"mercadolibre");
+        manager.processRefund(200.5,0,"paypal");
+        manager.processRefund(200.5,1,"mercadolibre");
     }
 }
